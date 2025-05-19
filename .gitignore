@@ -3,3 +3,5 @@
 /ML_model/*
 /app/__pycache__
 /__pycache__
+/venv
+/.venv
