@@ -67,3 +67,4 @@ python run.py
 - Some features require external tools (e.g., `strings` from binutils).
 
 ## License
+This project is licensed under the Apache License. See the [LICENSE](LICENSE) file for details.
