@@ -250,7 +250,7 @@ def URLChecker(url):
     import base64
     import time
     
-    API_KEY = 'a2684a632231d2e7881785d24f461e34232cf08c792c9599b774f6fc190e0ae1'
+    API_KEY = ''
     
     # Step 1: Submit URL for scanning
     scan_url = 'https://www.virustotal.com/api/v3/urls'
@@ -349,7 +349,7 @@ def IPChecker(IP_ADDRESS):
     import requests
     import json
     
-    API_KEY = 'a2684a632231d2e7881785d24f461e34232cf08c792c9599b774f6fc190e0ae1'
+    API_KEY = ''
     VT_URL = f'https://www.virustotal.com/api/v3/ip_addresses/{IP_ADDRESS}'
     headers = {
         'x-apikey': API_KEY
